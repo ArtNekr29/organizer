@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\
 organizer
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\student\Desktop\git\organizer\organizer\App.xaml
-11407045341
+C:\Users\Loh\Source\Repos\organizer\organizer\App.xaml
+5-331965870
 
-6-1948142803
-222-1632677510
-MainWindow.xaml;
+111529013171
+2221194590648
+LogPage.xaml;MainWindow.xaml;Registration.xaml;RegPage.xaml;Window1.xaml;
 
-False
+True
 

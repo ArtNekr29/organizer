@@ -64,3 +64,16 @@ C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\refint
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\organizer.pdb
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\organizer.genruntimeconfig.cache
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\ref\organizer.dll
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\organizer.csproj.AssemblyReference.cache
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\LogPage.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\Registration.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\RegPage.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\organizer_MarkupCompile.cache
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\organizer_MarkupCompile.lref
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\organizer.dll
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\refint\organizer.dll
+C:\Users\Loh\Source\Repos\organizer\organizer\obj\Debug\net6.0-windows\organizer.pdb

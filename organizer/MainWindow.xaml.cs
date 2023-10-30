@@ -25,6 +25,7 @@ namespace organizer
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
     public class User
