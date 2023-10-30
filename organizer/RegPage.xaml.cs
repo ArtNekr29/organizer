@@ -24,5 +24,10 @@ namespace organizer
         {
             InitializeComponent();
         }
+
+        private void registr_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

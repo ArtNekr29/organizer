@@ -27,6 +27,12 @@ namespace organizer
             InitializeComponent();
 
         }
+
+        private void login_Click(object sender, RoutedEventArgs e)
+        {
+            Registration registration = new Registration();
+            registration.Visibility = Visibility.Visible;
+        }
     }
     public class User
     {

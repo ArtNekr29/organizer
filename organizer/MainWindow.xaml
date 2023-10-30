@@ -40,5 +40,6 @@
                 <Button Content="Архивировать" Name="archive"/>
             </MenuItem>
         </Menu>
+        <Button Grid.Column="3" HorizontalAlignment="Right" Content="Войти" Margin="5" Background="Lavender" BorderThickness="0" Name="login" Click="login_Click"/>
     </Grid>
 </Window>
