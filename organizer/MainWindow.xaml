@@ -5,8 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:organizer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Interface" Height="450" Width="500">
+    <Grid Background="Lavender">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="Файловый органайзер" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="15"/>
+        <Button Content="Настройки" Grid.Column="0" Grid.Row="1" Background="Lavender" Foreground="Gray"/>
+        <TextBlock Name="file" Grid.ColumnSpan="4" Grid.Row="2" Grid.Column="0" Width="480" Height="325" VerticalAlignment="Center" Background="WhiteSmoke"/>
+        <Menu Height="25" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Foreground="Gray" Background="Lavender">
+            <MenuItem Header="Файл">
+                <Button Content="Открыть" Name="open"/>
+                <Button Content="Сохранить" Name="save"/>
+            </MenuItem>
+        </Menu>
+        <Menu Height="25" VerticalAlignment="Top" Grid.Row="1" Grid.Column="2" Background="Lavender" Foreground="Gray">
+            <MenuItem Header="Сортировка">
+                <Button Content="По весу" Name="weight"/>
+                <Button Content="По алфавиту" Name="alphabet"/>
+            </MenuItem>
+        </Menu>
+        <Menu Height="25" VerticalAlignment="Top" Grid.Row="1" Grid.Column="3" Background="Lavender" Foreground="Gray">
+            <MenuItem Header="Редактирование">
+                <Button Content="Распаковать архивы" Name="unpack"/>
+                <Button Content="Переименовать" Name="rename"/>
+                <Button Content="Архивировать" Name="archive"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>

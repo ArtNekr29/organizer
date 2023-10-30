@@ -1,5 +1,5 @@
 ﻿organizer
-1.0.0.0
+
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\student\Desktop\git\organizer\organizer\App.xaml
-3818383990
+11407045341
 
-10-1045840027
+6-1948142803
 222-1632677510
-MainWindow.xaml;Registration.xaml;Window1.xaml;
+MainWindow.xaml;
 
-True
+False
 
