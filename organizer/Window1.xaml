@@ -1,0 +1,31 @@
+﻿<Window x:Class="organizer.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:organizer"
+        mc:Ignorable="d"
+        Title="Settings" Height="300" Width="300">
+    <Grid Background="Lavender">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Настройки" HorizontalContentAlignment="Center"/>
+        <Button Name="Back" Content="Back" FontSize="10" VerticalContentAlignment="Top" Width="25" Height="15" Background="WhiteSmoke" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Menu Height="25" VerticalAlignment="Top" Grid.Row="1" Background="WhiteSmoke">
+            <MenuItem Header="Язык">
+                <RadioButton Content="Русский" Name="rus"/>
+                <RadioButton Content="Английский" Name="eng"/>
+            </MenuItem>
+        </Menu>
+        <Menu Height="25" VerticalAlignment="Top" Grid.Row="2" Background="WhiteSmoke">
+            <MenuItem Header="Тема">
+                <RadioButton Content="Светлая" Name="svet"/>
+                <RadioButton Content="Темная" Name="tem"/>
+                <RadioButton Content="Системная" Name="system"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
