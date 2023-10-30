@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\student\Desktop\git\organizer\organizer\App.xaml
-11407045341
+5-331965870
 
-6-1948142803
+111529013171
 222-1632677510
-MainWindow.xaml;
+LogPage.xaml;MainWindow.xaml;Registration.xaml;RegPage.xaml;Window1.xaml;
 
-False
+True
 

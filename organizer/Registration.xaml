@@ -5,31 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:organizer"
         mc:Ignorable="d"
-        Title="Registration" Height="250" Width="500">
-    <Grid Background="Lavender">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Label Content="Регистрация" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="Почта" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <Label Content="Логин" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <Label Content="Пароль" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <Label Content="Повторите пароль" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <TextBox Name="mail_reg" Width="200" Height="25" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"/>
-        <TextBox Name="login_reg" Width="200" Height="25" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left"/>
-        <TextBox Name="password_reg" Width="200" Height="25" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"/>
-        <TextBox Name="password2" Width="200" Height="25" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left"/>
-        <Button Content="Зарегистрироваться" Name="zareg" Width="150" Height="25" Grid.ColumnSpan="2" Grid.Row="5" HorizontalAlignment="Center" Background="WhiteSmoke"/>
-        <Button Content="Авторизироваться" Name="ver_avtor" Width="150" Height="25" Grid.ColumnSpan="2" Grid.Row="6" HorizontalAlignment="Center" Background="WhiteSmoke"/>
+        Title="Registration" Height="250" Width="500" Background="Lavender">
+    <Grid>
+        <StackPanel>
+            <Menu Height="20" VerticalAlignment="Top" Background="White">
+                <MenuItem Name="logmenu" Header="Авторизация" Click="MenuItem_Click"/>
+                <MenuItem Name="regmenu" Header="Регистрация" Click="MenuItem_Click_1" Background="LightGray"/>
+            </Menu>
+            <Frame Name="mainframe" NavigationUIVisibility = 'Hidden'/>
+
+        </StackPanel>
     </Grid>
 </Window>

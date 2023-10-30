@@ -64,3 +64,10 @@ C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\refint
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\organizer.pdb
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\organizer.genruntimeconfig.cache
 C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\ref\organizer.dll
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\Registration.g.cs
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\RegPage.g.cs
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\Registration.baml
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\RegPage.baml
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\student\Desktop\git\organizer\organizer\obj\Debug\net6.0-windows\LogPage.g.cs

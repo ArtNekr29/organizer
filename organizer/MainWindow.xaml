@@ -19,7 +19,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Label Content="Файловый органайзер" Grid.ColumnSpan="4" HorizontalAlignment="Center" FontSize="15"/>
-        <Button Content="Настройки" Grid.Column="0" Grid.Row="1" Background="Lavender" Foreground="Gray"/>
+        <Button Name="settings" Content="Настройки" Grid.Column="0" Grid.Row="1" Background="Lavender" Foreground="Gray" Click="settings_Click"/>
         <TextBlock Name="file" Grid.ColumnSpan="4" Grid.Row="2" Grid.Column="0" Width="480" Height="325" VerticalAlignment="Center" Background="WhiteSmoke"/>
         <Menu Height="25" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Foreground="Gray" Background="Lavender">
             <MenuItem Header="Файл">
@@ -40,5 +40,10 @@
                 <Button Content="Архивировать" Name="archive"/>
             </MenuItem>
         </Menu>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="3" HorizontalAlignment="Right" Margin="5">
+            <Button Name="login" Content="Sing In"/>
+            <Button Name="registr" Content="Sing Up"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -26,6 +26,12 @@ namespace organizer
         {
             InitializeComponent();
         }
+
+        private void settings_Click(object sender, RoutedEventArgs e)
+        {
+            Settings set = new Settings();
+            set.Visibility = Visibility.Visible;
+        }
     }
     public class User
     {

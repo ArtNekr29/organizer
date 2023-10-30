@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Azure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,23 @@ namespace organizer
         public Registration()
         {
             InitializeComponent();
+            mainframe.Navigate(new RegPage());
+            LogReg.MainFrame = mainframe;
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            LogReg.MainFrame.Navigate(new LogPage());
+            logmenu.Background = Brushes.White;
+            regmenu.Background = Brushes.LightGray;
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            LogReg.MainFrame.Navigate(new RegPage());
+            regmenu.Background = Brushes.White;
+            logmenu.Background = Brushes.LightGray;
+        }
+
     }
 }
